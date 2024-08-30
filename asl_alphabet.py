@@ -67,13 +67,6 @@ cv2.putText(help_frame, "The program displays which letter to sign in the upper 
 cv2.putText(help_frame, "To randomize the order, toggle the Random slider.",
             (20, 350), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (0, 0, 0), thickness=2)
 
-cv2.putText(help_frame, "I apologize for any bugs, this program is still very much a work in progress :)",
-            (20, 450), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (0, 0, 0), thickness=2)
-
-
-cv2.putText(help_frame, "Kaitlin Nguyen, Advanced Programming Topics (June 2021)",
-            (20, 560), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 0), thickness=2)
-
 cv2.putText(help_frame, "Press the spacebar to close this window",
             (20, 600), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 0), thickness=2)
 
